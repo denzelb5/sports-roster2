@@ -1,152 +1,134 @@
 {
   "player1": {
-    "name": "ShameIs Winston",
+    "name": "ShameUs Winston",
     "imageUrl": "https://pixnio.com/free-images/2018/06/14/2018-06-14-22-46-18-1125x900.jpg",
-    "position": "Quarterback",
-    "uid": ""
+    "position": "QB",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player2": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "name": "Breshad Peckinman",
+    "imageUrl": "https://live.staticflickr.com/2029/2428451612_50edfaa2b1_b.jpg",
+    "position": "WR",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player3": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
+    "name": "Cameron Crate",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Salmon_Faverolle_hen_headshot.jpg",
+    "position": "TE",
     "uid": ""
   },
   "player4": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "name": "Donovan Scratch",
+    "imageUrl": "https://p1.pxfuel.com/preview/663/648/924/haan-animal-poultry-mohawk-royalty-free-thumbnail.jpg",
+    "position": "LT",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player5": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "name": "Ali Marpet",
+    "imageUrl": "https://storage.needpix.com/rsynced_images/chicken-738120_1280.jpg",
+    "position": "LG",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
 },
   "player6": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "name": "Ryan Jensen",
+    "imageUrl": "https://p1.pxfuel.com/preview/660/626/419/haan-mohawk-animal-poultry-royalty-free-thumbnail.jpg",
+    "position": "C",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player7": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "name": "Alex CaCaw!",
+    "imageUrl": "https://p1.pxfuel.com/preview/833/233/258/rooster-mohawk-hairstyle-bird-royalty-free-thumbnail.jpg",
+    "position": "RG",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player8": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "name": "Demar Dotson",
+    "imageUrl": "https://p1.pxfuel.com/preview/616/715/809/rooster-bird-mohawk-hairstyle-domestic-birds-royalty-free-thumbnail.jpg",
+    "position": "RT",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player9": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "name": "O.J. Howard",
+    "imageUrl": "https://p1.pxfuel.com/preview/482/324/998/the-hen-look-eye-sight-royalty-free-thumbnail.jpg",
+    "position": "TE",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player10": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "name": "Chris Godwin",
+    "imageUrl": "https://p0.piqsels.com/preview/692/877/182/bird-chicken-animal-fowl.jpg",
+    "position": "WR",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player11": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "name": "Ronald Jones II",
+    "imageUrl": "https://p1.pxfuel.com/preview/553/971/801/haan-animal-poultry-mohawk-royalty-free-thumbnail.jpg",
+    "position": "RB",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player12": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "name": "Ndamukong Brak! Suh",
+    "imageUrl": "https://p1.pxfuel.com/preview/29/363/772/chicken-hen-poultry-range-royalty-free-thumbnail.jpg",
+    "position": "DE",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player13": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "name": "Vita Vea",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_iTNm3KNBMRAxJuRbjkjykgzbn2LYDZidlIK3dpHHu4g01qDy",
+    "position": "NT",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player14": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "name": "William Gholston",
+    "imageUrl": "https://p1.pxfuel.com/preview/732/11/608/rooster-bird-domestic-birds-colors-royalty-free-thumbnail.jpg",
+    "position": "DE",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player15": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "name": "Carl Nassib",
+    "imageUrl": "https://p0.pxfuel.com/preview/464/735/730/nature-poultry-haan-chicken-royalty-free-thumbnail.jpg",
+    "position": "OLB",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player16": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "name": "Devin White",
+    "imageUrl": "https://p1.pxfuel.com/preview/613/1023/719/haan-animal-poultry-mohawk-royalty-free-thumbnail.jpg",
+    "position": "ILB",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player17": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "name": "Lavonte David",
+    "imageUrl": "https://p1.pxfuel.com/preview/806/379/623/birds-poultry-farm-animal-kingdom-royalty-free-thumbnail.jpg",
+    "position": "ILB",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player18": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "name": "Shaquil Barret",
+    "imageUrl": "https://p1.pxfuel.com/preview/953/528/895/haan-bird-poultry-mohawk-nature-fauna-royalty-free-thumbnail.jpg",
+    "position": "OLB",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player19": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "name": "Carlton Davis",
+    "imageUrl": "https://p1.pxfuel.com/preview/351/852/977/hahn-bad-look-sicily-chickens-royalty-free-thumbnail.jpg",
+    "position": "CB",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player20": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "name": "Sean Murphy-Bunting",
+    "imageUrl": "https://live.staticflickr.com/1091/760491974_c6c4f63fb0_b.jpg",
+    "position": "CB",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player21": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "name": "Mike Edwards",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Salmon_Faverolle_hen_headshot.jpg",
+    "position": "S",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player22": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
-    "uid": ""
-  },
-  "player23": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
-    "uid": ""
-  },
-  "player24": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
-    "uid": ""
-  },
-  "player25": {
-    "name": "",
-    "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "name": "Andrew Adams",
+    "imageUrl": "https://p1.pxfuel.com/preview/833/233/258/rooster-mohawk-hairstyle-bird-royalty-free-thumbnail.jpg",
+    "position": "S",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   }
 }
