@@ -1,152 +1,152 @@
 {
   "player1": {
-    "name": "ShameIs Winston",
+    "name": "ShameUs Winston",
     "imageUrl": "https://pixnio.com/free-images/2018/06/14/2018-06-14-22-46-18-1125x900.jpg",
-    "position": "Quarterback",
-    "uid": ""
+    "position": "QB",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player2": {
-    "name": "",
+    "name": "Breshad Perriman",
     "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "position": "WR",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player3": {
-    "name": "",
+    "name": "Cameron Brate",
     "imageUrl": "",
-    "position": "",
+    "position": "TE",
     "uid": ""
   },
   "player4": {
-    "name": "",
+    "name": "Donovan Smith",
     "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "position": "LT",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player5": {
-    "name": "",
+    "name": "Ali Marpet",
     "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "position": "LG",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
 },
   "player6": {
-    "name": "",
+    "name": "Ryan Jensen",
     "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "position": "C",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player7": {
-    "name": "",
+    "name": "Alex Cappa",
     "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "position": "RG",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player8": {
-    "name": "",
+    "name": "Demar Dotson",
     "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "position": "RT",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player9": {
-    "name": "",
+    "name": "O.J. Howard",
     "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "position": "TE",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player10": {
-    "name": "",
+    "name": "Chris Godwin",
     "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "position": "WR",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player11": {
-    "name": "",
+    "name": "Ronald Jones II",
     "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "position": "RB",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player12": {
-    "name": "",
+    "name": "Ndamukong Suh",
     "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "position": "DE",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player13": {
-    "name": "",
+    "name": "Vita Vea",
     "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "position": "NT",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player14": {
-    "name": "",
+    "name": "William Gholston",
     "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "position": "DE",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player15": {
-    "name": "",
+    "name": "Carl Nassib",
     "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "position": "OLB",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player16": {
-    "name": "",
+    "name": "Devin White",
     "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "position": "ILB",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player17": {
-    "name": "",
+    "name": "Lavonte David",
     "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "position": "ILB",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player18": {
-    "name": "",
+    "name": "Shaquil Barret",
     "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "position": "OLB",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player19": {
-    "name": "",
+    "name": "Carlton Davis",
     "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "position": "CB",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player20": {
-    "name": "",
+    "name": "Sean Murphy-Bunting",
     "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "position": "CB",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player21": {
-    "name": "",
+    "name": "Mike Edwards",
     "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "position": "S",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player22": {
-    "name": "",
+    "name": "Andrew Adams",
     "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "position": "S",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player23": {
-    "name": "",
+    "name": "Bradley Pinion",
     "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "position": "P",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player24": {
-    "name": "",
+    "name": "Matt Gay",
     "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "position": "PK",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   },
   "player25": {
-    "name": "",
+    "name": "Justin Watson",
     "imageUrl": "",
-    "position": "",
-    "uid": ""
+    "position": "PR",
+    "uid": "D8C2MolErQYc3A4g9HHks53YYB42"
   }
 }
