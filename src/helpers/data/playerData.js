@@ -8,10 +8,12 @@ const getPlayers = () => new Promise((resolve, reject) => {
     .then((result) => {
       const playerObject = result.data;
       const players = [];
-      Object.keys(playerObject).forEach((fbId) => {
-        playerObject[fbId].id = fbId;
-        players.push(playerObject[fbId]);
-      });
+      if (playerObject != null) {
+        Object.keys(playerObject).forEach((fbId) => {
+          playerObject[fbId].id = fbId;
+          players.push(playerObject[fbId]);
+        });
+      }
       resolve(players);
     })
     .catch((error) => reject(error));
