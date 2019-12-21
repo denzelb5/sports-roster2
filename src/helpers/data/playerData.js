@@ -19,4 +19,6 @@ const getPlayers = () => new Promise((resolve, reject) => {
     .catch((error) => reject(error));
 });
 
-export default { getPlayers };
+const addPlayer = (newPlayer) => axios.post(`${baseUrl}/players.json`, newPlayer);
+
+export default { getPlayers, addPlayer };
