@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import playerShape from '../../helpers/propz/playerShape';
 import './Players.scss';
 
@@ -6,6 +7,22 @@ import './Players.scss';
 class Player extends React.Component {
   static propTypes = {
     player: playerShape.playerShape,
+    setSinglePlayer: PropTypes.func,
+    setEditMode: PropTypes.func,
+    setPlayerToEdit: PropTypes.func,
+  }
+
+  setSelectedPlayerId = (e) => {
+    e.preventDefault();
+    const { setSinglePlayer, player } = this.props;
+    setSinglePlayer(player.id);
+  }
+
+  setEditMode = (e) => {
+    // const { setEditMode, setPlayerToEdit, player } = this.props;
+    e.preventDefault();
+    this.props.setEditMode(true);
+    this.props.setPlayerToEdit(this.props.player);
   }
 
   render() {
@@ -16,6 +33,8 @@ class Player extends React.Component {
   <div className="card-body">
 <h5 className="card-title">{player.name}</h5>
     <p className="card-text">Position: {player.position}</p>
+    <button className="btn btn-primary" onClick={this.setSelectedPlayerId}>View Player</button>
+    <button className="btn btn-danger" onClick={this.setEditMode}>Edit Player</button>
   </div>
   </div>
     );
