@@ -10,6 +10,13 @@ class Player extends React.Component {
     setSinglePlayer: PropTypes.func,
     setEditMode: PropTypes.func,
     setPlayerToEdit: PropTypes.func,
+    deleteSinglePlayer: PropTypes.func,
+  }
+
+  deletePlayerEvent = (e) => {
+    e.preventDefault();
+    const { deleteSinglePlayer, player } = this.props;
+    deleteSinglePlayer(player.id);
   }
 
   setSelectedPlayerId = (e) => {
@@ -35,6 +42,7 @@ class Player extends React.Component {
     <p className="card-text">Position: {player.position}</p>
     <button className="btn btn-primary" onClick={this.setSelectedPlayerId}>View Player</button>
     <button className="btn btn-danger" onClick={this.setEditMode}>Edit Player</button>
+    <button className="btn btn-danger" onClick={this.deletePlayerEvent}>X</button>
   </div>
   </div>
     );

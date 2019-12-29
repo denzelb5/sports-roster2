@@ -31,6 +31,10 @@ class App extends React.Component {
     this.removeListener();
   }
 
+  setSinglePlayer = (selectedPlayerId) => {
+    this.setState({ selectedPlayerId });
+  }
+
   render() {
     const { authed, selectedPlayerId } = this.state;
     return (
@@ -40,7 +44,7 @@ class App extends React.Component {
     (authed) ? (<Team setSinglePlayer={this.setSinglePlayer}/>) : (<Auth />)
         }
         {
-          (selectedPlayerId) && (<Player selectedPlayerId={selectedPlayerId} setSinglePlayer={this.setSinglePlayer}/>)
+          (selectedPlayerId) && (<Player selectedPlayerId={selectedPlayerId} />)
         }
       </div>
     );
