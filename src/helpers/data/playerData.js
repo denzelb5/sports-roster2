@@ -19,6 +19,13 @@ const getPlayers = () => new Promise((resolve, reject) => {
     .catch((error) => reject(error));
 });
 
+const deletePlayer = (playerId) => axios.delete(`${baseUrl}/players/${playerId}.json`);
 const addPlayer = (newPlayer) => axios.post(`${baseUrl}/players.json`, newPlayer);
+const updatePlayer = (playerId, newPlayerInfo) => axios.put(`${baseUrl}/players/${playerId}.json`, newPlayerInfo);
 
-export default { getPlayers, addPlayer };
+export default {
+  getPlayers,
+  addPlayer,
+  updatePlayer,
+  deletePlayer,
+};

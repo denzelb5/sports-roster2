@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 import playerData from '../../helpers/data/playerData';
 import Player from '../Players/Players';
 import PlayerForm from '../PlayerForm/Playerform';
@@ -7,13 +7,20 @@ import PlayerForm from '../PlayerForm/Playerform';
 import './Team.scss';
 
 class Team extends React.Component {
+  static propTypes = {
+    setSinglePlayer: PropTypes.func,
+  }
+
   state = {
     players: [],
+    editMode: false,
+    playerToEdit: {},
+    showPlayerForm: false,
+    selectedPlayerId: null,
   }
 
   componentDidMount() {
-    const { players } = this.state;
-    this.getPlayerData(players);
+    this.getPlayerData();
   }
 
   getPlayerData = () => {
@@ -24,6 +31,7 @@ class Team extends React.Component {
       .catch((errorFromGetPlayers) => console.error(errorFromGetPlayers));
   }
 
+
   addPlayerData = (newPlayer) => {
     playerData.addPlayer(newPlayer)
       .then(() => {
@@ -32,13 +40,46 @@ class Team extends React.Component {
       .catch((errorFromAddPlayer) => console.error(errorFromAddPlayer));
   }
 
-  render() {
-    const { players } = this.state;
+  deleteSinglePlayer = (playerId) => {
+    playerData.deletePlayer(playerId)
+      .then(() => {
+        this.getPlayerData();
+      })
+      .catch((errorFromDeletePlayer) => console.error(errorFromDeletePlayer));
+  }
 
+  removeSelectedPlayerId = (e) => {
+    e.preventDefault();
+    const { setSinglePlayer } = this.props;
+  }
+
+  updatePlayer = (playerId, updatedPlayer) => {
+    playerData.updatePlayer(playerId, updatedPlayer)
+      .then(() => {
+        this.getPlayerData();
+        this.setState({ editMode: false, showPlayerForm: false });
+      })
+      .catch((error) => console.error(error));
+  }
+
+  setEditMode = (editMode) => {
+    this.setState({ editMode, showPlayerForm: true });
+  }
+
+  setPlayerToEdit = (player) => {
+    this.setState({ playerToEdit: player });
+  }
+
+  setShowPlayerForm = () => {
+    this.setState({ showPlayerForm: true });
+  }
+
+  render() {
     return (
       <div id="team" className="d-flex flex-wrap">
-        <PlayerForm addPlayer={this.addPlayerData} />
-        { players.map((player) => <Player key={player.id} player={player} />)}
+       { < PlayerForm addPlayer={this.addPlayerData} editMode={this.state.editMode} playerToEdit={this.state.playerToEdit} updatePlayer={this.updatePlayer} /> }
+       <img src="https://www.kickinchicken.com/wp-content/uploads/2017/06/Global-Football-Promo.jpg" alt=""/>
+        {this.state.players.map((player) => (<Player key={player.id} player={player} setEditMode={this.setEditMode} setPlayerToEdit={this.setPlayerToEdit} deleteSinglePlayer={this.deleteSinglePlayer} setSinglePlayer={this.props.setSinglePlayer}/>))}
       </div>
     );
   }
