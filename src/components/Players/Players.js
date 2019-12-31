@@ -1,12 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import playerShape from '../../helpers/propz/playerShape';
 import './Players.scss';
 
 
 class Player extends React.Component {
   static propTypes = {
-    player: playerShape.playerShape,
     setSinglePlayer: PropTypes.func,
     setEditMode: PropTypes.func,
     setPlayerToEdit: PropTypes.func,
@@ -26,7 +24,6 @@ class Player extends React.Component {
   }
 
   setEditMode = (e) => {
-    // const { setEditMode, setPlayerToEdit, player } = this.props;
     e.preventDefault();
     this.props.setEditMode(true);
     this.props.setPlayerToEdit(this.props.player);

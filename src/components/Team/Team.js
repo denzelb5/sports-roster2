@@ -20,8 +20,7 @@ class Team extends React.Component {
   }
 
   componentDidMount() {
-    const { players } = this.state;
-    this.getPlayerData(players);
+    this.getPlayerData();
   }
 
   getPlayerData = () => {
@@ -42,10 +41,9 @@ class Team extends React.Component {
   }
 
   deleteSinglePlayer = (playerId) => {
-    const { selectedPlayerId } = this.props;
     playerData.deletePlayer(playerId)
       .then(() => {
-        this.getPlayerData(selectedPlayerId);
+        this.getPlayerData();
       })
       .catch((errorFromDeletePlayer) => console.error(errorFromDeletePlayer));
   }
@@ -77,14 +75,11 @@ class Team extends React.Component {
   }
 
   render() {
-    // const { players } = this.props;
-    // const setSinglePlayer = this.props;
-
     return (
       <div id="team" className="d-flex flex-wrap">
        { < PlayerForm addPlayer={this.addPlayerData} editMode={this.state.editMode} playerToEdit={this.state.playerToEdit} updatePlayer={this.updatePlayer} /> }
        <img src="https://www.kickinchicken.com/wp-content/uploads/2017/06/Global-Football-Promo.jpg" alt=""/>
-        {this.state.players.map((player) => (<Player key={player.id} player={player} setEditMode={this.setEditMode} setPlayerToEdit={this.setPlayerToEdit} deleteSinglePlayer={this.deleteSinglePlayer} />))}
+        {this.state.players.map((player) => (<Player key={player.id} player={player} setEditMode={this.setEditMode} setPlayerToEdit={this.setPlayerToEdit} deleteSinglePlayer={this.deleteSinglePlayer} setSinglePlayer={this.props.setSinglePlayer}/>))}
       </div>
     );
   }

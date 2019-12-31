@@ -7,7 +7,7 @@ import playerShape from '../../helpers/propz/playerShape';
 class PlayerForm extends React.Component {
   static propTypes = {
     addPlayer: PropTypes.func,
-    playerToEdit: playerShape.playerShape,
+    // playerToEdit: playerShape.playerShape,
     editMode: PropTypes.bool,
     // updatePlayer: PropTypes.func,
   }
