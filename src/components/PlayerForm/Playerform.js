@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 import authData from '../../helpers/data/authData';
 import playerShape from '../../helpers/propz/playerShape';
 
+import './Playerform.scss';
+
 class PlayerForm extends React.Component {
   static propTypes = {
     addPlayer: PropTypes.func,
@@ -87,6 +89,7 @@ class PlayerForm extends React.Component {
     const { editMode } = this.props;
 
     return (
+      
       <form className='col-6 offset-3 PinForm'>
           <div className="form-group">
             <label htmlFor="player-name">Player Name:</label>
@@ -122,7 +125,7 @@ class PlayerForm extends React.Component {
           </div>
           {
            (editMode) ? (<button className="btn btn-warning" onClick={this.updatePlayerEvent}>Update Player</button>)
-             : <button className="btn btn-secondary" onClick={this.addPlayerEvent}>Add Player</button>
+             : <button className="btn btn-warning" onClick={this.addPlayerEvent}>Add Player</button>
           }
             </form>
     );

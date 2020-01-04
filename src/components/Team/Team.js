@@ -76,10 +76,14 @@ class Team extends React.Component {
 
   render() {
     return (
-      <div id="team" className="d-flex flex-wrap">
-       { < PlayerForm addPlayer={this.addPlayerData} editMode={this.state.editMode} playerToEdit={this.state.playerToEdit} updatePlayer={this.updatePlayer} /> }
-       <img src="https://www.kickinchicken.com/wp-content/uploads/2017/06/Global-Football-Promo.jpg" alt=""/>
+      <div id="team">
+        <div>
+          <img id="chicken-duel" src="https://www.kickinchicken.com/wp-content/uploads/2017/06/Global-Football-Promo.jpg" alt=""/>
+        </div>
+        { < PlayerForm addPlayer={this.addPlayerData} editMode={this.state.editMode} playerToEdit={this.state.playerToEdit} updatePlayer={this.updatePlayer} /> }
+        <div className="d-flex flex-wrap">
         {this.state.players.map((player) => (<Player key={player.id} player={player} setEditMode={this.setEditMode} setPlayerToEdit={this.setPlayerToEdit} deleteSinglePlayer={this.deleteSinglePlayer} setSinglePlayer={this.props.setSinglePlayer}/>))}
+        </div>
       </div>
     );
   }

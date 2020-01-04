@@ -37,9 +37,9 @@ class Player extends React.Component {
   <div className="card-body">
 <h5 className="card-title">{player.name}</h5>
     <p className="card-text">Position: {player.position}</p>
-    <button className="btn btn-primary" onClick={this.setSelectedPlayerId}>View Player</button>
-    <button className="btn btn-danger" onClick={this.setEditMode}>Edit Player</button>
-    <button className="btn btn-danger" onClick={this.deletePlayerEvent}>X</button>
+    {/* <button className="btn btn-primary" onClick={this.setSelectedPlayerId}>View Player</button> */}
+    <button className="btn btn-primary" onClick={this.setEditMode}>Edit</button>
+    <button className="btn btn-danger" onClick={this.deletePlayerEvent}>Delete</button>
   </div>
   </div>
     );
